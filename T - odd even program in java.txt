@@ -1,0 +1,1038 @@
+ODD EVEN PROGRAM IN JAVA | LEARN CODING 
+
+odd number is the one which when divided by 2 does not gives the reminder as 0 
+
+even number is the one which when divided by 2 gives the reminder as 0
+
+import java.util.Scanner;
+class Arjun 
+{
+public static void main(String[] args)
+{
+	int n ;
+	System.out.print("Enter any Number ");
+	Scanner r = new Scanner(System.in);
+	n = r.nextInt();
+	
+	if(n%2 == 0)
+	{
+		System.out.print("Even Number");
+	}
+	else
+	{
+		System.out.print("Odd Number");
+	}
+}
+}
+
+
+
+ADD TWO NUMBERS IN JAVA | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun 
+{
+public static void main(String[] args)
+{
+	int a,b,sum;
+	System.out.print("Enter two numbers ");	
+	Scanner sc = new Scanner(System.in);
+	a = sc.nextInt();
+	b = sc.nextInt();
+	sum = a + b;
+	System.out.print("Addition" + sum);
+}
+}
+
+
+
+JAVA PROGRAM TO PRINT FIRST N NATURAL NUMBERS | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int a;
+	Scanner sc = new Scanner(System.in);
+	a = sc.nextInt();
+	for(int i=0 ; i<=a ; i++)
+	{	
+		System.out.println(i);
+	}
+	}
+}
+
+
+
+SUM OF FIRST N NATURAL NUMBERS IN JAVA | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+		int n, t=0;
+		System.out.println("Enter no of term");
+		Scanner sc = new Scanner(System.in);
+		n  = sc.nextInt();
+		
+		for(int i=1 ; i<=n ;i++)
+		{
+		t=t+i;
+		}
+System.out.println(t);
+}
+}
+
+
+JAVA PROGRAM TO PRINT ALL ODD NUMBERS BETWEEN 1 TO N | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun 
+{
+public static void main (String[] args)
+{
+	int n;
+	Scanner sc = new Scanner(System.in);
+	n = sc.nextInt();
+for(int i=0 ;i<=n;i++)
+{
+if(i%2 !=0)
+{
+System.out.println(i);
+}
+}
+}
+}
+
+
+JAVA PROGRAM TO PRINT ALL EVEN NUMBERS BETWEEN 0 TO N | LEARN CODING
+
+import java.util.Scanner;
+class Arjun 
+{
+public static void main (String[] args)
+{
+	int n;
+	Scanner sc = new Scanner(System.in);
+	n = sc.nextInt();
+for(int i=0 ;i<=n;i++)
+{
+if(i%2 ==0)
+{
+System.out.println(i);
+}
+}
+}
+}
+
+
+
+JAVA PROGRAM TO CALCULATE SUM OF ODD OR EVEN NUMBERS | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main (String[] args)
+{
+	   int n,sum =0;
+	   System.out.print("Enter Range");
+	   Scanner sc = new Scanner(System.in);
+	   n = sc.nextInt();
+	if(n%2==0)
+	{
+	for(int i=0;i<=n;i = i+2)
+	{
+	sum = sum + i;
+	}
+      System.out.println(sum);
+	}
+	else
+	{
+	for(int i=1;i<=n;i = i+2)
+	{
+	sum = sum + i;
+	}
+System.out.println(sum);
+	}
+}
+}
+
+JAVA PROGRAM TO TAKE CHARACTER INPUT FROM USER | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+		char ch;
+		System.out.print("please enter character");
+		Scanner sc = new Scanner(System.in);
+		ch = sc.next().charAt(0); // this gets the char that is input from 		the user in command prompt and that too it gets the 					particular character at the location specified 
+		System.out.print(ch);
+}
+}
+
+
+
+JAVA PROGRAM TO CHECK CHARACTER IS VOWEL OR CONSONENT | LEARN CODING 
+
+class Arjun
+{
+public static void main(String[] args)
+{
+	char ch;
+	System.out.println("enter the character");
+	Scanner sc= new Scanner(System.in);
+	ch = sc.next().charAt(0);
+	
+	if( ch='a' || ch ='e' ||ch = 'i' ||ch = 'o' || ch ='u')
+	{
+		System.out.print("Vowel");
+	}
+	else
+	{	
+		System.out.print("Consonant");
+	}
+}
+}
+
+JAVA PROGRAM TO PRINT ASCII VALUE OF A CHARACTER || LEARN CODING
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+		char ch;
+ 		System.out.println("Please enter the character to convert");
+		Scanner sc = new Scanner(System.in);
+		ch = sc.next().charAt(0);
+		
+		int a = ch;
+		System.out.println("ASCII value is " + a);
+
+}
+}
+
+JAVA PROGRAM TO PRINT A TO Z ALPHABETS | LEARN CODING 
+
+class Arjun
+{
+public static void main(String[] args)
+{
+  	 char S = 'A' ,E = 'Z' ;
+	for(char i=S ;i<E;i++)
+		{
+			System.out.println(i);
+		}
+}
+
+
+JAVA PROGRAM TO FIND GREATEST NUMBER BETWEEN TWO NUMBERS | LEARN CODING
+
+class Arjun
+{
+public static void main(String[] args)
+	{
+		int a= 10 ,b = 20;
+		if(a>b)
+		{
+	 	System.out.println("a is greater than b");
+		}
+		else
+		{
+		System.out.println("b is greater than a");	
+		}
+	}
+}
+
+
+JAVA PROGRAM TO CALCULATE POWER OF A NUMBER | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+	public static void main(String[] args )
+{
+	int n,p,result=1;
+	System.out.print("Enter the number");
+	Scanner sc = new Scanner(System.in);
+	n = sc.nextInt();
+	System.out.println("Enter power");
+	p = sc.nextInt();
+	
+	for(int i=0;i<=p;i++)
+	{
+		result = n*result;
+	}
+	System.out.println("the power of the number given is "+ result);c
+}
+}
+
+JAVA PROGRAM TO FIND GREATEST OF THREE NUMBERS | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int n,m,s;
+	System.out.println("Enter the three numbers");
+	Scanner sc = new Scanner(System.in);
+	n = sc.nextInt();
+	m = sc.nextInt();
+	s = sc.nextInt();
+	
+	if(n>m)
+	{
+		if(n>s)
+		{
+		System.out.println(n+" is greater");
+		}
+		else
+		{	
+		System.out.println(s+" is greater");		
+		}
+	}
+	else
+	{
+		if(m>s)
+		{
+		System.out.println(m+" is greater");
+		}
+		else
+		{
+		System.out.println(s+" is greater");
+		}
+	}
+}
+}
+
+JAVA PROGRAM TO CALCULATE TOTAL AND AVERAGE MARKS OF 5 SUBJECTS | LEARN CODING 
+
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+int a,b,c,d,e,sum,avg;
+Scanner sc = new Scanner(System.in);
+System.out.println("enter the numbers");
+a=sc.nextInt();
+b=sc.nextInt();
+c=sc.nextInt();
+d=sc.nextInt();
+e=sc.nextInt();
+
+sum = a+b+c+d+e;
+avg = sum/5;
+
+System.out.println ("the sum is "+sum +" the average is "+ avg );
+
+
+}
+
+}
+
+
+JAVA PROGRAM TO FIND FACTORIAL OF A NUMBER | LEARN CODING 
+
+what is factorial : - multiplication of all the numbers below the number given is called factorial
+ 
+factorial of 5 is -> 5*4*3*2*1 -> 120
+
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int m ,factorial=1;
+	Scanner sc = new Scanner(System.in);
+	System.out.println("enter the number you want factorial for");
+	m = sc.nextInt();
+	
+	for(int i=m ; i>0;i--)
+	{
+		factorial = factorial*i;
+	}
+System.out.println("the factorial of "+m+" is "+factorial);
+
+}
+}
+
+JAVA PROGRAM TO COUNT DIGITS IN A NUMBER | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int n,count=0;
+	System.out.print("Enter any number");
+	Scanner sc = new Scanner(System.in);
+ 	n = sc.nextInt();
+	
+	while(n>0)
+	{
+	 n = n/10;
+	 count++;	
+	}
+	System.out.println("no of digits " + count);
+}
+}
+
+
+JAVA PROGRAM TO CHECK VOTING ELIGIBILITY | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int age;
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the age");
+	age = sc.nextInt();
+	if(age>=18)
+	{
+		System.out.println("you are eligible for voting");
+	}
+	else
+	{
+		System.out.println("you are not eligible for voting");
+	}
+	
+}
+}
+
+
+JAVA PROGRAM TO PRINT MULTIPLICATION TABLE | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int a , x;
+	Scanner sc = new Scanner(System.in);
+	a = sc.nextInt();
+	for(int i=1;i<=10;i++)
+{
+	x = i*a;
+	System.out.println(a+" * "+i+" = "+x);
+}
+}
+}
+
+
+JAVA PROGRAM TO CALCULATE TAX OF A SALARY | LEARN CODING 
+
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int sal;
+	System.out.println("Enter the salary");
+	Scanner sc = new Scanner(System.in);
+	sal = sc.nextInt();
+
+
+if(sal <=10000)
+{
+System.out.println("no tax for this salary "+ sal);
+}
+else if(sal>10000 && sal<=100000)
+{
+System.out.println("10% tax for this salary"+ sal);
+}
+else
+{
+System.out.println("20% tax for this salary"+ sal);
+}
+}
+}
+
+
+JAVA PROGRAM TO MAKE CALCULATOR || LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+  int n1,n2;
+ System.out.println("enter the numbers");
+ Scanner sc = new Scanner(System.in);
+ System.out.println("Enter the operation you want to perform");
+ String str = sc.nextLine();
+  n1 = sc.nextInt();
+  n2 = sc.nextInt();	
+ if(str.equalsIgnoreCase("add"))
+{
+     System.out.println("the addition of these two numbers is "+(n1+n2));
+}
+
+else if(str.equalsIgnoreCase("sub"))
+{
+     System.out.println("the substarction of these two numbers is "+(n1-n2));
+}
+
+else if(str.equalsIgnoreCase("mul"))
+{
+     System.out.println("the multiplication of these two numbers is "+(n1*n2));
+}
+
+else
+{
+     System.out.println("the division of these two numbers is "+(n1/n2));
+}
+}
+}
+
+JAVA PROGRAM TO CALCULATE AREA OF RECTAGNGLE | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int l,b,area=1;
+	System.out.print("Enter the values of sides");
+	Scanner sc = new Scanner(System.in);
+	l = sc.nextInt();
+	b= sc.nextInt();
+	area = l*b;
+	System.out.println ("area of rectangle is "+area);
+}
+
+}
+
+JAVA PROGRAM TO CALCULATE AREA OF CIRLE | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+final double PI =3.14,area;
+int r ;
+System.out.println("Enter the radius of the circle");
+Scanner ref = new Scanner(System.in);
+r=ref.nextInt();
+area = PI*r*r;
+System.out.println("the area of the circle is "+ area);
+}
+
+}
+
+JAVA PROGRAM TO CALCULATE AREA OF SQUARE | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	double r,area;
+	System.out.println("enter the length of a side");
+	Scanner sc = new Scanner(System.in);
+	r=sc.nextFloat();
+	area = r*r;
+	System.out.println("the area of square is"+ area);
+}
+}
+
+JAVA PROGRAM TO CALCULATE AREA OF TRIANGLE | LEARN CODING 
+
+import java.util.Scanner;
+import java.lang.Math;
+
+class Arjun
+{
+public static void main(String[] args)
+{
+	float a,b,c, sp;
+	double area;
+	System.out.println("Enter the sides of triangle");
+	Scanner sc = new Scanner(System.in);
+	a = sc.nextFloat();
+	b = sc.nextFloat();
+	c = sc.nextFloat();	
+	sp = (a+b+c)/2;
+	area = Math.sqrt(sp*(sp-a)(sp-b)(sp-c));
+	System.out.println("the area of triangle is" +area);
+}
+}
+
+JAVA PROGRAM TO SWAP TWO NUMBERS | LEARN CODING 
+import java.util.Scanner;
+class Arjun
+{
+	public static void main(String[] args)
+{
+	int a,b,c;
+	System.out.println("enter the two numbers");	
+	Scanner sc = new Scanner(System.in);
+	a = sc.nextInt();
+	b = sc.nextInt();
+
+	c = a;
+	a = b;
+	b = c;
+System.out.println("the two numbers are" +a +" " +b);
+	
+}
+}
+
+SWAPPING OF TWO NUMBERS WITHOUT USING THIRD VARIABLE IN JAVA | LEARN COIDNG
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int a,b;
+	System.out.println("enter the two numbers");
+	Scanner sc = new Scanner(System.in);
+	a = sc.nextInt();
+	b = sc.nextInt();
+	a = a+b;
+	b = a-b;
+	a = a-b;
+	System.out.println("the two numbers are"+a+" "+b);
+}
+}
+
+JAVA PROGRAM TO CONVERT CHARACTER UPPERCASE TO LOWERCASE AND  VICE VERSA | LEARN CODING 
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	char ch,ch2;
+	System.out.println("Enter any character");
+	Scanner sc = new Scanner(System.in);
+	ch = sc.next().charAt(0);
+	if(ch>='A' && ch<='Z')
+	{
+		ch2 = Character.toLowerCase(ch);
+		System.out.println("the lowercase letter is"+ ch2);
+ 	} 
+	else
+	{
+		ch2 = Character.toUpperCase(ch);
+		System.out.println("the uppercase letter is"+ ch2);	
+	}
+}
+}
+
+JAVA PROGRAM TO CHECK NUMBER IS POSITIVE OR NEGATIVE | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int a;
+	System.out.println("Enter the number that you want to check positive or negative");
+	Scanner sc = new Scanner(System.in);
+	a = sc.nextInt();
+	if(a>0)
+	{
+		System.out.println("the number is positive");
+	}
+	else if (a<0)
+	{
+		System.out.println("the number is negative");
+	}
+	else
+	{
+		System.out.println("the number is zero");
+	}
+}
+
+}
+
+JAVA PROGRAM TO CHECK INPUT IS LEAP YEAR OR NOT | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun 
+{
+public static void main(String[] args)
+{
+	int a;
+	System.out.println("enter the year to check if it is a leap year or not");
+	Scanner sc = new Scanner(System.in);
+	a = sc.nextInt();
+	if(a%100 == 0 && a%400 == 0)
+		{
+			System.out.println("this is century leap year");
+		}
+	else if(a%100 != 0 && a%4 == 0)
+		{
+			System.out.println("this is yearly leap year");
+		}
+	else
+		{	
+			System.out.println("this is not a leap year");	
+		}
+}
+}
+
+
+JAVA PROGRAM TO CHECK NUMBER IS DIVISABLE BY 5 OR NOT | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int a;
+	System.out.println("enter the number which you want to check if it is divisable or not");
+	Scanner sc = new Scanner(System.in);
+	a = sc.nextInt();
+	if(a%5==0)
+		{
+			System.out.println("this number is divisable by 5");	
+		}
+	else
+		{
+			System.out.println("this number is not divisable by 5");
+		}
+}
+}
+
+JAVA PROGRAM TO PRINT DAY NAME OF WEEKEND USING SWITCH STATEMENT | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int n;
+	System.out.println("Enter the code of the day");
+	Scanner sc = new Scanner(System.in);	
+	n = sc.nextInt();
+	switch(n)
+{	
+	case 0 : System.out.println("Sunday");
+		     break;
+	case 1 : System.out.println("monday");
+		     break;
+	case 2 : System.out.println("Tuesday");
+		     break;
+	case 3 : System.out.println("Wednesday");
+		     break;
+	case 4 : System.out.println("Thursday");
+		     break;
+	case 5 : System.out.println("Friday");
+		     break;
+	case 6 : System.out.println("Saturday");
+		     break;
+	default : System.out.println("Please enter the correct code");
+		     break;
+}
+}
+}
+
+JAVA PROGRAM TO FIND FACTOR OF A NUMBER | LEARN CODING 
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int n;
+	System.out.println("Enter any number");
+	Scanner sc = new Scanner(System.in);
+	n = sc.nextInt();
+	System.out.println("The factorials are");
+	
+for(int i=1 ; i<=n ; i++)
+	{
+		if(n%i==0)	
+		{
+			System.out.print(i+",");
+		}
+	}
+}
+}
+
+
+JAVA PROGRAM TO INPUT MONTH NUMBER AND PRINT NUMBER OF DAYS | LEARN CODING 
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int n;
+	System.out.println("enter the number");
+	Scanner sc = new Scanner(System.in);
+	n = sc.nextInt();
+	if(n==1)
+	{
+		System.out.println("January has 31 days");
+	}
+	else if(n==2)
+	{
+		System.out.println("February has 28 days");
+	}
+	else if(n==3)
+	{
+		System.out.println("March has 31 days");
+	}
+	else if(n==4)
+	{
+		System.out.println("April has 30 days");
+	}
+	else if(n==5)
+	{
+		System.out.println("May has 31 days");
+	}
+	else if(n==6)
+	{
+		System.out.println("June has 30 days");
+	}
+	else if(n==7)
+	{
+		System.out.println("July has 31 days");
+	}
+	else if(n==8)
+	{
+		System.out.println("August has 31 days");
+	}
+	else if(n==9)
+	{
+		System.out.println("September has 30 days");
+	}
+	else if(n==10)
+	{
+		System.out.println("October has 31 days");
+	}
+	else if(n==11)
+	{
+		System.out.println("November has 30 days");
+	}
+	else if(n==12)
+	{
+		System.out.println("December has 31 days");
+	}	
+	else
+	{
+		System.out.println("please enter the correct month number");
+	}
+}
+}
+
+JAVA PROGRAM TO REVERSE A NUMBER | LEARN CODING
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int n,r;
+	System.out.println("Enter the number to reverse it");
+	Scanner sc = new Scanner(System.in);
+	n=sc.nextInt();
+        System.out.println("The reverse order is");
+	while(n>0)
+	{
+		r = n%10;
+		System.out.print(r);
+		n=n/10;
+	}
+}
+}
+
+JAVA PROGRAM TO FIND SUM OF DIGITS | LEARN CODING
+
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+    int n,r,sum=0;
+    System.out.println("enter the number that you want to sum");
+    Scanner sc = new Scanner(System.in);
+    n = sc.nextInt();
+    while(n>0)
+    {
+	r = n%10;
+	sum = sum + r;
+	n=n/10;
+    }
+ System.out.println("The sum of the digits is "+sum);
+
+}
+
+}
+
+
+JAVA PROGRAM TO CHECK IF THE NUMBER IS PALINDROME OR NOT | LEARN CODING 
+
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int r,s=0,n,c;
+	System.out.println("enter the number you want to check for palindrome");
+	Scanner sc = new Scanner(System.in);
+	n  = sc.nextInt();	
+	c = n;
+while(n>0)
+	{
+		r = n%10;
+		s=(s*10)+r;
+		n=n/10;
+	}
+System.out.println(s);
+	if(s==c)
+	{
+		System.out.println("this number is palindrome");
+	}
+}
+}
+
+JAVA PROGRAM TO CHECK NUMBER IS ARMSTRONG OR NOT | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+        int n,c,r,arm=0;
+	System.out.print("enter the number to check if it is armstrong or not");
+	Scanner sc = new Scanner(System.in);
+	n = sc.nextInt();
+	c=n;
+	while(n>0)
+	{
+		r = n%10;
+		arm = arm + (r*r*r);
+		n = n/10;
+	}
+	
+	if(arm == c)
+	{
+		System.out.println("this is armstrong number");
+	}
+}
+}
+
+JAVA PROGRAM TO FIND SQUARE ROOT OF A NUMBER | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int n;
+	System.out.println("enter the number you want to find the square root of");
+	Scanner sc = new Scanner(System.in);
+	n = sc.nextInt();
+       double m = Math.sqrt(n);
+       System.out.println("the square root of this number is "+m);
+}
+
+}
+
+JAVA PROGRAM TO CHECK NUMBER IS PRIME OR NOT | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun 
+{
+public static void main(String[] args)
+{
+	int n;
+	System.out.println("enter the number you want to check if it is prime or not");
+	Scanner sc = new Scanner(System.in);
+	n = sc.nextInt();	
+	int c=0;
+	for(int i=2;i<n;i++)	
+	{
+		if(n%i==0)
+		{
+		System.out.println("this is not prime number");
+		c++;
+		break;
+		}
+	}
+	if(c==0)
+	{
+		System.out.println("this is prime number");
+	}
+}
+}
+
+
+JAVA  PROGRAM TO CHECK WEATHER A NUMBER IS PERFECT OR NOT | LEARN CODING 
+
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int n,sum=0;
+	System.out.println("enter the number you want to check if it is perfect or not");
+	Scanner sc = new Scanner(System.in);
+	n = sc.nextInt();
+	for(int i=1;i<n ; i++)
+	{	
+	 if(n%i==0)
+	{
+	sum = sum+i;
+	}
+	}
+if(sum == n)
+{
+System.out.println("this is perfect number");
+}
+else
+{
+System.out.println("this is not perfect number");
+}
+	
+}
+}
+
+JAVA PROGRAM TO PRINT ALL PRIME NUMBERS BETWEEN TWO NUMBERS | LEARN CODING 
+
+import java.util.Scanner;
+class Arjun
+{
+public static void main(String[] args)
+{
+	int a,b,c=0;
+	System.out.println("enter the two numbers");
+	Scanner sc = new Scanner(System.in);
+	a = sc.nextInt();
+	b = sc.nextInt();
+	
+ 	for(int i=a;i<b;i++)
+	{
+		for(int j=2;j<i;j++)
+		{
+			if(i%j==0)
+			{
+				c++;
+			}
+		}
+		if(c==0)
+		{
+			System.out.println(i);
+		}
+		c=0;
+
+	}		
+
+
+}
+}
